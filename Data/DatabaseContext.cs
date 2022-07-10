@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotelListing.Data
 {
-    public class DatabaseContext : DbContext
+    public class DatabaseContext : IdentityDbContext<ApiUser>
     {
         public DatabaseContext(DbContextOptions options)
             : base(options)
@@ -14,6 +16,17 @@ namespace HotelListing.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
+
+            // rename tables
+            builder.Entity<ApiUser>(e => e.ToTable("ApiUsers"));
+            builder.Entity<IdentityRole>(e => e.ToTable(name: "Roles"));
+            builder.Entity<IdentityUserRole<string>>(e => e.ToTable("UserRoles"));
+            builder.Entity<IdentityUserClaim<string>>(e => e.ToTable("UserClaims"));
+            builder.Entity<IdentityUserLogin<string>>(e => e.ToTable("UserLogins"));
+            builder.Entity<IdentityUserToken<string>>(e => e.ToTable("UserTokens"));
+            builder.Entity<IdentityRoleClaim<string>>(e => e.ToTable("RoleClaims"));
+
             // Seeds
             builder.Entity<Country>().HasData(
                 new Country()
