@@ -4,6 +4,7 @@ using HotelListing.Data;
 using Microsoft.EntityFrameworkCore;
 using HotelListing.Mappers;
 using HotelListing.Units;
+using Microsoft.AspNetCore.Identity;
 
 string rootPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\"));
 var builder = WebApplication.CreateBuilder(args);
@@ -35,6 +36,13 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnetion"));
 });
+
+// Identity
+builder.Services.AddAuthentication();
+builder.Services.AddIdentity<ApiUser, IdentityRole>(o =>
+{
+    o.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<DatabaseContext>().AddDefaultTokenProviders();
 
 //
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
