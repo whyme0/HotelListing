@@ -1,0 +1,191 @@
+2022-06-30 17:01:21.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index - -
+2022-06-30 17:01:21.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index - - - 404 0 - 7.7433ms
+2022-06-30 17:01:21.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/favicon.ico - -
+2022-06-30 17:01:21.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/favicon.ico - - - 404 0 - 0.5237ms
+2022-06-30 17:36:50.339 +03:00 [INF] Application Is Starting
+2022-06-30 17:36:50.872 +03:00 [FTL] Application Failed to start
+System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found or is out of date.
+To generate a developer certificate run 'dotnet dev-certs https'. To trust the certificate (Windows and macOS only) run 'dotnet dev-certs https --trust'.
+For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions, Action`1 configureOptions)
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\windows-hater\source\repos\HotelListing\Program.cs:line 40
+2022-06-30 17:37:02.469 +03:00 [INF] Application Is Starting
+2022-06-30 17:37:02.818 +03:00 [FTL] Application Failed to start
+System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found or is out of date.
+To generate a developer certificate run 'dotnet dev-certs https'. To trust the certificate (Windows and macOS only) run 'dotnet dev-certs https --trust'.
+For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions, Action`1 configureOptions)
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\windows-hater\source\repos\HotelListing\Program.cs:line 40
+2022-06-30 17:37:57.481 +03:00 [INF] Application Is Starting
+2022-06-30 17:37:57.707 +03:00 [FTL] Application Failed to start
+System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found or is out of date.
+To generate a developer certificate run 'dotnet dev-certs https'. To trust the certificate (Windows and macOS only) run 'dotnet dev-certs https --trust'.
+For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions, Action`1 configureOptions)
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\windows-hater\source\repos\HotelListing\Program.cs:line 40
+2022-06-30 17:38:20.389 +03:00 [INF] Application Is Starting
+2022-06-30 17:38:20.492 +03:00 [FTL] Application Failed to start
+System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found or is out of date.
+To generate a developer certificate run 'dotnet dev-certs https'. To trust the certificate (Windows and macOS only) run 'dotnet dev-certs https --trust'.
+For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions, Action`1 configureOptions)
+   at Microsoft.AspNetCore.Hosting.ListenOptionsHttpsExtensions.UseHttps(ListenOptions listenOptions)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\windows-hater\source\repos\HotelListing\Program.cs:line 40
+2022-06-30 17:41:32.182 +03:00 [INF] Application Is Starting
+2022-06-30 17:41:32.579 +03:00 [INF] Now listening on: https://localhost:7116
+2022-06-30 17:41:32.582 +03:00 [INF] Now listening on: http://localhost:5116
+2022-06-30 17:41:32.586 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:41:32.586 +03:00 [INF] Hosting environment: Development
+2022-06-30 17:41:32.586 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-06-30 17:41:36.043 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:41:36.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 282.1273ms
+2022-06-30 17:41:36.467 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:41:36.467 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:41:36.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.0020ms
+2022-06-30 17:41:36.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.7954ms
+2022-06-30 17:41:36.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:41:36.871 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.6300ms
+2022-06-30 17:42:03.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:42:03.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 8.9918ms
+2022-06-30 17:42:03.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:42:03.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:42:03.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.6393ms
+2022-06-30 17:42:03.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.7624ms
+2022-06-30 17:42:04.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:42:04.330 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.3844ms
+2022-06-30 17:43:21.512 +03:00 [INF] Application Is Starting
+2022-06-30 17:43:21.789 +03:00 [INF] Now listening on: https://localhost:7116
+2022-06-30 17:43:21.793 +03:00 [INF] Now listening on: http://localhost:5116
+2022-06-30 17:43:21.797 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:43:21.797 +03:00 [INF] Hosting environment: Development
+2022-06-30 17:43:21.797 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-06-30 17:43:23.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:43:23.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 395.4118ms
+2022-06-30 17:43:23.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:43:23.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:43:23.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.4359ms
+2022-06-30 17:43:23.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.6774ms
+2022-06-30 17:43:24.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:43:24.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.2688ms
+2022-06-30 17:45:43.000 +03:00 [INF] Application Is Starting
+2022-06-30 17:45:43.503 +03:00 [INF] Now listening on: "https://localhost:7116"
+2022-06-30 17:45:43.508 +03:00 [INF] Now listening on: "http://localhost:5116"
+2022-06-30 17:45:43.513 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:45:43.513 +03:00 [INF] Hosting environment: "Development"
+2022-06-30 17:45:43.513 +03:00 [INF] Content root path: "C:\Users\windows-hater\source\repos\HotelListing\"
+2022-06-30 17:45:44.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:45:45.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 382.6587ms
+2022-06-30 17:45:45.181 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:45:45.181 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:45:45.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.6321ms
+2022-06-30 17:45:45.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9688ms
+2022-06-30 17:45:45.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:45:45.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.6752ms
+2022-06-30 17:51:28.032 +03:00 [INF] Application Is Starting
+2022-06-30 17:51:28.423 +03:00 [INF] Now listening on: https://localhost:7116
+2022-06-30 17:51:28.427 +03:00 [INF] Now listening on: http://localhost:5116
+2022-06-30 17:51:28.433 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:51:28.433 +03:00 [INF] Hosting environment: Development
+2022-06-30 17:51:28.434 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-06-30 17:51:29.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:51:29.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 251.3331ms
+2022-06-30 17:51:29.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:51:29.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:51:29.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.6723ms
+2022-06-30 17:51:29.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.5380ms
+2022-06-30 17:51:29.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:51:29.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.0620ms
+2022-06-30 17:53:05.403 +03:00 [INF] Application is shutting down...
+2022-06-30 17:53:44.827 +03:00 [INF] Application Is Starting
+2022-06-30 17:53:45.137 +03:00 [INF] Now listening on: https://localhost:7116
+2022-06-30 17:53:45.142 +03:00 [INF] Now listening on: http://localhost:5116
+2022-06-30 17:53:45.147 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:53:45.147 +03:00 [INF] Hosting environment: Development
+2022-06-30 17:53:45.147 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-06-30 17:53:46.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:53:46.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 249.2206ms
+2022-06-30 17:53:46.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:53:46.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:53:46.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.5955ms
+2022-06-30 17:53:46.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0551ms
+2022-06-30 17:53:46.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:53:46.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.9141ms
+2022-06-30 17:53:54.592 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/WeatherForecast - 0
+2022-06-30 17:53:54.601 +03:00 [INF] Executing endpoint 'HotelListing.Controllers.WeatherForecastController.Post (HotelListing)'
+2022-06-30 17:53:54.615 +03:00 [INF] Route matched with {action = "Post", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.WeatherForecast] Post() on controller HotelListing.Controllers.WeatherForecastController (HotelListing).
+2022-06-30 17:53:54.626 +03:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.WeatherForecast[]'.
+2022-06-30 17:53:54.639 +03:00 [INF] Executed action HotelListing.Controllers.WeatherForecastController.Post (HotelListing) in 17.7622ms
+2022-06-30 17:53:54.641 +03:00 [INF] Executed endpoint 'HotelListing.Controllers.WeatherForecastController.Post (HotelListing)'
+2022-06-30 17:53:54.641 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/WeatherForecast - 0 - 200 - application/json;+charset=utf-8 48.8100ms
+2022-06-30 17:54:17.976 +03:00 [INF] Application Is Starting
+2022-06-30 17:54:18.382 +03:00 [INF] Now listening on: https://localhost:7116
+2022-06-30 17:54:18.386 +03:00 [INF] Now listening on: http://localhost:5116
+2022-06-30 17:54:18.390 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-30 17:54:18.391 +03:00 [INF] Hosting environment: Development
+2022-06-30 17:54:18.391 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-06-30 17:54:19.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-06-30 17:54:19.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 263.1867ms
+2022-06-30 17:54:19.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-06-30 17:54:19.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - -
+2022-06-30 17:54:19.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.0068ms
+2022-06-30 17:54:19.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.5495ms
+2022-06-30 17:54:19.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-06-30 17:54:19.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.7782ms
+2022-06-30 17:54:44.607 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7116/WeatherForecast - 0
+2022-06-30 17:54:44.614 +03:00 [INF] Executing endpoint 'HotelListing.Controllers.WeatherForecastController.Get (HotelListing)'
+2022-06-30 17:54:44.626 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.WeatherForecast] Get() on controller HotelListing.Controllers.WeatherForecastController (HotelListing).
+2022-06-30 17:54:44.634 +03:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.WeatherForecast[]'.
+2022-06-30 17:54:44.646 +03:00 [INF] Executed action HotelListing.Controllers.WeatherForecastController.Get (HotelListing) in 13.8434ms
+2022-06-30 17:54:44.647 +03:00 [INF] Executed endpoint 'HotelListing.Controllers.WeatherForecastController.Get (HotelListing)'
+2022-06-30 17:54:44.647 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/WeatherForecast - 0 - 200 - application/json;+charset=utf-8 40.6261ms
+2022-06-30 17:54:50.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/WeatherForecast - -
+2022-06-30 17:54:50.303 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-06-30 17:54:50.311 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-06-30 17:54:50.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/WeatherForecast - - - 405 0 - 10.1071ms
+2022-06-30 17:54:57.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/WeatherForecast - -
+2022-06-30 17:54:57.386 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-06-30 17:54:57.386 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-06-30 17:54:57.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/WeatherForecast - - - 405 0 - 1.5804ms

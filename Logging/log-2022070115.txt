@@ -1,0 +1,52 @@
+2022-07-01 15:54:30.839 +03:00 [INF] Application Is Starting
+2022-07-01 15:54:31.664 +03:00 [INF] Now listening on: https://localhost:7116
+2022-07-01 15:54:31.667 +03:00 [INF] Now listening on: http://localhost:5116
+2022-07-01 15:54:31.669 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-01 15:54:31.670 +03:00 [INF] Hosting environment: Development
+2022-07-01 15:54:31.670 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-07-01 15:54:34.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger - -
+2022-07-01 15:54:34.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger - - - 301 0 - 155.0139ms
+2022-07-01 15:54:35.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:54:35.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 75.8022ms
+2022-07-01 15:54:35.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui.css - -
+2022-07-01 15:54:35.161 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-07-01 15:54:35.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui.css - - - 200 143943 text/css 18.1397ms
+2022-07-01 15:54:35.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/favicon-32x32.png - -
+2022-07-01 15:54:35.306 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-07-01 15:54:35.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/favicon-32x32.png - - - 200 628 image/png 0.8172ms
+2022-07-01 15:54:38.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger - -
+2022-07-01 15:54:38.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger - - - 301 0 - 0.6838ms
+2022-07-01 15:54:38.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:54:38.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 1.0101ms
+2022-07-01 15:54:41.236 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:54:41.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 1.0984ms
+2022-07-01 15:54:41.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui-bundle.js - -
+2022-07-01 15:54:41.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui-standalone-preset.js - -
+2022-07-01 15:54:41.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-07-01 15:54:41.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 42.6070ms
+2022-07-01 15:54:41.371 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-07-01 15:54:41.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 61.7225ms
+2022-07-01 15:54:41.387 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-07-01 15:54:41.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 75.4488ms
+2022-07-01 15:54:41.665 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-07-01 15:54:41.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 404 0 - 1.6886ms
+2022-07-01 15:54:52.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:54:52.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 200 - text/html;charset=utf-8 0.9985ms
+2022-07-01 15:54:52.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - -
+2022-07-01 15:54:52.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 0.5619ms
+2022-07-01 15:54:52.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - -
+2022-07-01 15:54:52.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 404 0 - 0.4370ms
+2022-07-01 15:56:21.318 +03:00 [INF] Application Is Starting
+2022-07-01 15:56:21.711 +03:00 [INF] Now listening on: https://localhost:7116
+2022-07-01 15:56:21.716 +03:00 [INF] Now listening on: http://localhost:5116
+2022-07-01 15:56:21.725 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-01 15:56:21.727 +03:00 [INF] Hosting environment: Development
+2022-07-01 15:56:21.727 +03:00 [INF] Content root path: C:\Users\windows-hater\source\repos\HotelListing\
+2022-07-01 15:56:22.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:56:22.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 404 0 - 68.2163ms
+2022-07-01 15:56:22.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/favicon.ico - -
+2022-07-01 15:56:22.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/favicon.ico - - - 404 0 - 1.1711ms
+2022-07-01 15:56:27.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:56:27.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 404 0 - 0.6397ms
+2022-07-01 15:56:31.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - -
+2022-07-01 15:56:31.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - - - 404 0 - 0.7557ms
