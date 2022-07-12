@@ -1,4 +1,4 @@
-﻿fnamespace HotelListing.Configurations.Data
+﻿namespace HotelListing.Configurations.Data
 {
     public class RolesConfiguration
     {
