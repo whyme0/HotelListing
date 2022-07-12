@@ -42,6 +42,9 @@ builder.Services.AddAuthentication();
 builder.Services.AddIdentity<ApiUser, IdentityRole>(o =>
 {
     o.User.RequireUniqueEmail = true;
+    o.Password.RequireDigit = false;
+    o.Password.RequireUppercase = false;
+    o.Password.RequireNonAlphanumeric = false;
 }).AddEntityFrameworkStores<DatabaseContext>().AddDefaultTokenProviders();
 
 //
